@@ -1,0 +1,20 @@
+.perspective {
+    perspective: 1000px;
+}
+
+.transform-style-3d {
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.backface-hidden {
+    backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+    transform: rotateY(180deg);
+}
+
+.card-flip:hover .transform-style-3d {
+    transform: rotateY(180deg);
+}

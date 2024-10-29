@@ -1,0 +1,8 @@
+/* styles.css */
+header {
+    backdrop-filter: blur(10px); /* Optional: adds a nice blur effect behind the header */
+}
+
+nav a {
+    transition: color 0.3s ease; /* Smooth color transition for the links */
+}
